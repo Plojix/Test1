@@ -72,10 +72,10 @@ textarea:valid ~ label {
   font-size: var(--size-xs);
 }
 
-
 /* xs */
 @media (min-width: 475px) {
   .contact {
+    margin-top: 10px;
     gap: 1.5rem;
   }
 
@@ -101,7 +101,7 @@ textarea:valid ~ label {
   
 } */
 /* lg */
-@media(min-width: 1024px){
+@media (min-width: 1024px) {
   .contact__title {
     font-size: var(--size-4xl);
   }
@@ -115,8 +115,8 @@ textarea:valid ~ label {
 }
 
 /* xl */
-@media(min-width: 1280px){
-    .contact {
+@media (min-width: 1280px) {
+  .contact {
     gap: 2rem;
   }
 
